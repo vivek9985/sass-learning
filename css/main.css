@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 20px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+  background-color: rgb(220, 220, 220);
+}
+body header div h1 {
+  font-size: 40px;
+  color: blue;
+}
+body header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.4s;
+}
+body header nav ul li a:hover {
+  color: blue;
+}/*# sourceMappingURL=main.css.map */

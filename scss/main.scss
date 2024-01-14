@@ -1,0 +1,49 @@
+$primary-color: blue;
+$secondey-color: rgb(220, 220, 220);
+$primary-text-color: rgb(168, 168, 178);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px auto;
+        padding: 0 20px;    
+        border-radius: 10px;
+        background-color: $secondey-color;
+
+        div {
+            h1 {
+                font-size: 40px;
+                color: $primary-color;
+            }
+        }
+
+        nav {
+            ul {
+                list-style: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                li {
+                    a{
+                        text-decoration: none;
+                        color: black;
+                        font-weight: 600;
+                        font-family: "Poppins", sans-serif;
+                        transition: color .4s;
+                    }
+                    a:hover{
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
